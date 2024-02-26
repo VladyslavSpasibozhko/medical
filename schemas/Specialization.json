@@ -1,0 +1,10 @@
+{
+    "$id": "/schemas/Specialization.json",
+    "title":"Specialization",
+    "type": "object",
+    "properties": {
+        "id": { "type":"number" },
+        "title": { "type":"string" }
+    },
+    "required": ["title"]
+}

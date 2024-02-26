@@ -1,0 +1,12 @@
+{
+    "$id": "/schemas/Service.json",
+    "title":"Service",
+    "type": "object",
+    "properties": {
+        "id": { "type":"number" },
+        "code": { "type":"string" },
+        "title": { "type":"string" }, 
+        "specialization": { "$ref": "/schemas/Specialization.json" }
+    },
+    "required": ["code", "title"]
+}

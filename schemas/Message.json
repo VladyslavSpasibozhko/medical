@@ -1,0 +1,10 @@
+{
+  "$id": "/schemas/Message.json",
+  "title": "Message",
+  "type":"object",
+  "properties": {
+    "area": { "$ref": "schemas/Area.json" },
+    "from":{ "$ref": "schemas/Account.json" },
+    "text": { "type":"string" }
+  }
+}

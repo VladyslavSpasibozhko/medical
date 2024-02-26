@@ -1,0 +1,11 @@
+{
+    "$id": "/schemas/MedicalCard.json",
+    "title": "MedicalCard",
+    "type": "object",
+    "properties": {
+        "id": { "type":"number" },
+        "title": { "type":"string" },
+        "patient_id": { "type":"number" }
+    },
+    "required": ["title", "patient_id"]
+}

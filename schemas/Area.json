@@ -1,0 +1,15 @@
+{
+  "$id": "/schemas/Area.json",
+  "title":"Area",
+  "type":"object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "owner":{ "$ref": "schemas/Account.json" },
+    "members": {
+      "type":"array",
+      "items": { "$ref": "schemas/Account.json" }
+    }
+  }
+}

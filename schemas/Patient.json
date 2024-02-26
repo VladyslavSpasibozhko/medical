@@ -1,0 +1,15 @@
+{
+    "$id": "/schemas/Patient.json",
+    "title": "Patient",
+    "type": "object",
+    "properties": {
+        "id": { "type":"number" },
+        "first_name": { "type":"string" },
+        "last_name": { "type":"string" },
+        "medical_cards": {
+            "type":"array",
+            "items": { "$ref": "/schemas/MedicalCard.json" }
+        }
+    },
+    "required": ["title", "patient_id"]
+}

@@ -1,0 +1,11 @@
+{
+  "$id": "/schemas/Session.json",
+  "title":"Session",
+  "type":"object",
+  "properties": {
+    "account": { "$ref": "/schemas/Account.json" },
+    "token": { "type": "string" },
+    "ip": { "type": "string" },
+    "data": { "type": "string" }
+  }
+}

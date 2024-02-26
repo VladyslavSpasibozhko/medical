@@ -1,0 +1,10 @@
+{
+  "$id": "/schemas/Account.json",
+  "title":"Account",
+  "type":"object",
+  "properties": {
+    "login": { "type":"string", "minLength": 8, "maxLength": 64 },
+    "password": { "type":"string" },
+    "role": { "type":"array", "items": { "$ref": "/schemas/Role.json" } }
+  }
+}

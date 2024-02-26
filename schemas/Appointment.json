@@ -1,0 +1,21 @@
+{
+    "$id": "/schemas/Appointment.json",
+    "title":"Appointment",
+    "type": "object",
+    "properties": {
+        "id": { "type":"number" },
+        "patient": { "$ref": "/schemas/Patient.json" },
+        "doctor": { "$ref": "/schemas/Doctor.json" },
+        "cabinet": { "$ref": "/schemas/Cabinet.json" },
+        "services": { 
+            "type":"array", 
+            "items": {
+                "$ref": "/schemas/Service.json"
+            }
+        },
+        "created": { "type":"number" },
+        "start_time": { "type":"number" },
+        "end_time": { "type":"number" }
+    },
+    "required": ["patient", "doctor", "cabinet", "services", "created", "start_time", "end_time"]
+}

@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment configurations
+.env
+
+# Dependency directories
+bower_components
+jspm_packages
+
+# Distribution directories
+dist
+out
+.build
+.next

@@ -1,0 +1,11 @@
+{
+    "$id": "/schemas/Cabinet.json",
+    "title": "Cabinet",
+    "type": "object",
+    "properties": {
+        "id": { "type":"number" },
+        "number": { "type":"number" },
+        "title": { "type":"string" }
+    },
+    "required": ["number", "title"]
+}

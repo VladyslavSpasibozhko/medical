@@ -1,0 +1,8 @@
+{
+  "$id": "/schemas/Role.json",
+  "title": "Role",
+  "type":"object",
+  "properties": {
+    "name": { "type":"string" }
+  }
+}
